@@ -1,0 +1,32 @@
+{
+  "name": "react-protected-route",
+  "version": "1.0.0",
+  "description": "Protected route for React Router",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Shogenov <i@shagg.ru>",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaggyrec/react-protected-route.git"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.14",
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "eslint": "^7.3.1",
+    "eslint-config-typescript": "^3.0.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-react": "^7.20.0",
+    "typescript": "^3.9.5"
+  }
+}
