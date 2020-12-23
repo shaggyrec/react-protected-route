@@ -3,6 +3,10 @@
 Protected react route.
 Use for redirect users to login page from private pages.
 
+## Installation
+
+    npm i react-route-protected
+
 ## Usage
 
     import { Switch } from 'react-router-dom';

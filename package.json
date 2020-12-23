@@ -1,5 +1,5 @@
 {
-  "name": "react-protected-route",
+  "name": "react-route-protected",
   "version": "1.0.0",
   "description": "Protected route for React Router",
   "main": "lib/index.js",
