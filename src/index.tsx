@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 import Redirect from './Redirect';
 
 interface ProtectedRouteInterface {
-    component: React.ComponentClass;
+    component: any;
     isAuthorized: boolean;
     path: string;
     exact: boolean;

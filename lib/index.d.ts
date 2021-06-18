@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 interface ProtectedRouteInterface {
-    component: React.ComponentClass;
+    component: any;
     isAuthorized: boolean;
     path: string;
     exact: boolean;
